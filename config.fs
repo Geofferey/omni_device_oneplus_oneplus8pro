@@ -247,3 +247,39 @@ user: AID_ROOT
 group: AID_SHELL
 caps: 0
 
+[system/etc/bootdebi/scripts/*]
+mode: 0550
+user: AID_ROOT
+group: AID_ROOT
+caps: 0
+
+[system/etc/bootdebi/pulseaudio/bin/*]
+mode: 0555
+user: AID_ROOT
+group: AID_ROOT
+caps: 0
+
+[system/etc/bootdebi/pulseaudio/lib/*]
+mode: 0644
+user: AID_ROOT
+group: AID_ROOT
+caps: 0
+
+[system/etc/init.d/*]
+mode: 0550
+user: AID_ROOT
+group: AID_ROOT
+caps: 0
+
+[system/exbin/*]
+mode: 0550
+user: AID_ROOT
+group: AID_ROOT
+caps: 0
+
+[system/exlib/*]
+mode: 0440
+user: AID_ROOT
+group: AID_ROOT
+caps: 0
+
