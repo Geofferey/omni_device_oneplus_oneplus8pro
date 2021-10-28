@@ -53,7 +53,8 @@ AB_OTA_PARTITIONS += \
     product \
     vbmeta_system \
     vendor \
-    odm
+    odm \
+	recovery
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
